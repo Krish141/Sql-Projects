@@ -1,1 +1,24 @@
+Hello to all
+
+I recently completed a project on MS SQL server on Covid-19 data set.
+
+The dataset is from - https://lnkd.in/eFg8-8Cw
+
+All analysis is based on this dataset and is subject to the accuracy of this data.
+
+Skills used →
+Joins, Windows function, CTE, Temp table, Views, Aggregation functions, Subquery, Data type conversion, Format function
+
+Process/procedure used -
+1) 𝐃𝐚𝐭𝐚 𝐜𝐨𝐥𝐥𝐞𝐜𝐭𝐢𝐨𝐧 - Data is downloaded in the form of a CSV file.
+2) 𝐃𝐚𝐭𝐚 𝐭𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐜𝐥𝐞𝐚𝐧𝐬𝐢𝐧𝐠 - The data in the CSV file is cleansed and then split into two spreadsheets. One contains the Covid death data and the other contains data related to vaccinations.
+3) 𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐭𝐡𝐞 𝐝𝐚𝐭𝐚 - The transformed data is then loaded into the MS -Sql server database.
+4) 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 - The data is then analyzed at both global and country (India) levels.
+
+𝐒𝐨𝐦𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐟𝐢𝐧𝐝𝐢𝐧𝐠𝐬 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐝𝐚𝐭𝐚 -
+1) India is among the 𝐭𝐨𝐩 3 countries having highest death counts.
+2) Although India is in the 𝐭𝐨𝐩 3 having the highest death count. It is not the country with the most covid cases compared to the total population of the country.
+Rather, it ranks 152𝐧𝐝 𝐰𝐢𝐭𝐡 3.15% of the population infected with Covid, while Cyprus ranks 1𝐬𝐭 𝐰𝐢𝐭𝐡 72% of the population infected with Covid-19.
+3) Worldwide, more than 672 𝐦𝐢𝐥𝐥𝐢𝐨𝐧 people are infected with Covid. Of these, 6.8 𝐦𝐢𝐥𝐥𝐢𝐨𝐧 people have died.
+4) India had the most Covid cases in 𝐌𝐚𝐲 2021, about 9 𝐌𝐢𝐥𝐥𝐢𝐨𝐧. Of these, 120,000 were deaths.
 
